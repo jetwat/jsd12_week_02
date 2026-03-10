@@ -40,5 +40,5 @@ const supportTicket = {
   status: "Open"
 };
 
-// Log
+// Log to console
 console.log(`ลูกค้าชื่อ: ${customer.name} (โทร: ${customer.phone}) แจ้งเรื่องเข้ามาว่า: "${supportTicket.subject}"`);
