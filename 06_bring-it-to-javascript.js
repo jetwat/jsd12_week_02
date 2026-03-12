@@ -1,5 +1,5 @@
 // Customer
-const customer = {
+const customers = {
   customer_id: 1,
   name: "Nutty",
   age: 22,
@@ -9,7 +9,7 @@ const customer = {
 };
 
 // Product
-const product = {
+const products = {
   product_id: 101,
   name: "SAIJI: Ergonomic Bed Desk",
   price: 1500.00,
@@ -17,7 +17,7 @@ const product = {
 };
 
 // Order
-const order = {
+const orders = {
   order_id: 5001,
   customer_id: 1,
   order_date: "2026-03-10T10:00:00Z",
@@ -25,7 +25,7 @@ const order = {
 };
 
 // Order Item
-const orderItem = {
+const order_items = {
   order_item_id: 1,
   order_id: 5001,
   product_id: 101,
@@ -33,7 +33,7 @@ const orderItem = {
 };
 
 // Support Ticket
-const supportTicket = {
+const support_tickets = {
   support_ticket_id: 99,
   customer_id: 1,
   subject: "ปรับขาโต๊ะทำยังไงคะ",
