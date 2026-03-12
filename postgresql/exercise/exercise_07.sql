@@ -13,5 +13,5 @@ SELECT
     COUNT(o.order_id) AS count_order
 FROM staff s
 JOIN orders o ON s.staff_id = o.staff_id
-GROUP BY s.staff_id
+GROUP BY s.staff_id, s.first_name, s.last_name
 ;
